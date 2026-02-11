@@ -1,0 +1,41 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.lien{
+    display : flex;
+    justify-content: right;
+    margin: 6px;
+}
+
+.section1-div{
+    display: flex;
+    background-color: #8d4ed9;
+    align-items: center;
+}
+.img-home{
+    width: 68%;
+    padding: 30px;
+    justify-content: center;
+}
+
+article-home{
+    display: flex;
+    font-size: medium;
+    justify-content: center;
+    padding: 5px;
+}
+
+.portfolio{
+    display: flex;
+    width:50%;
+    padding: 30px;
+}
+
+.footer-div{
+    display: flex;
+    background-color: lightgray;
+}
