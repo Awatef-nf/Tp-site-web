@@ -11,29 +11,83 @@ a{
     margin: 6px;
 }
 
-.section1-div{
+.div-section1{
     display: flex;
     background-color: #8d4ed9;
     align-items: center;
 }
 .img-home{
-    width: 68%;
-    padding: 30px;
+    width: 20%;
+    padding: 35px;
     justify-content: center;
 }
 
-article-home{
+
+.div-section1-content{
     display: flex;
-    font-size: medium;
+    align-items: center;
     justify-content: center;
-    padding: 5px;
+}
+.button-section1{
+    background-color: #b5380e;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+}
+.button-section1:hover{
+    background-color: #5380ed;
+    color: white;
+    cursor: pointer;
+    transform: 0.3s;
+
+}
+.h5-titre1{
+    background-color: midnightblue;
+    color: white;
+    display: flex;
+    padding: 1px;
+    margin: 1px;
+    width: 139px;
 }
 
+.h5-titre2{
+    background-color: midnightblue;
+    color: white;
+    display: flex;
+    padding: 1px;
+    margin: 1px;
+    width: 258px;
+}
+.p-section1{
+    color: white;
+    margin: 3px;
+}
+
+.p-section2{
+    display: flex;
+    color: black;
+
+}
+.div-section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+.Lorem-Ipsum{
+    display: flex;
+}
+.Lorem-Ipsum-div{
+    padding: 10px;
+}
 .portfolio{
     display: flex;
-    width:50%;
-    padding: 30px;
-}
+    flex-direction: column;
+    width: 180px;
+ }
+
 
 .footer-div{
     display: flex;
