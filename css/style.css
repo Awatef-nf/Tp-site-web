@@ -10,7 +10,7 @@ a{
     justify-content: right;
     margin: 6px;
 }
-
+/*=====================section===============*/
 .div-section1{
     display: flex;
     background-color: #5c11b5;
@@ -21,7 +21,6 @@ a{
     padding: 35px;
     justify-content: center;
 }
-
 
 .div-section1-content{
     display: flex;
@@ -62,7 +61,7 @@ a{
     color: white;
     margin: 3px;
 }
-
+/*=====================section===============*/
 .p-section2{
     display: flex;
     color: black;
@@ -80,15 +79,47 @@ a{
     display: flex;
 }
 .Lorem-Ipsum-div{
-    padding: 10px;
+    padding-right: 28px;
+    padding-left: 12px;
 }
 .portfolio{
     display: flex;
     flex-direction: column;
-    width: 180px;
+    width: 200px;
  }
-
-
+.p-section21{
+    display: flex;
+    justify-content: center;
+    color:rebeccapurple;
+    margin: 0px;
+    margin-bottom: 80px;
+}
+/*=====================section===============*/
+.section3-div{
+    display: flex;
+    justify-content: center;
+}
+.portfolio-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 23px;
+}
+.p-section2{
+    font-size: x-small;
+}
+h6{
+    padding: 0px   ;
+    margin: 0px;
+}
+.portfolio1{
+    display: flex;
+    align-items: center;
+}
+.portfolio2{
+    display: flex;
+    align-items: center;
+}
 .footer-div{
     display: flex;
     background-color: lightgray;
